@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+	<link href="css/jogos.css" rel="stylesheet"/>
+<link href="css/estilo.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>Os melhores jogos de tabuleiro</title>
+</head>
+<body>
+	<header>O objetivo desse site é simplesmente indicar jogos divertidos para conhecimento e não envolve a venda dos produtos mencionados.</header>
+	<nav> 
+<a href="pginicial.html"> Voltar a pagina inicial </a>
+</nav>
+<main>
+<form action="/login.php method="post">
+<p>
+ <label for="nome"> Nome de usuário </label>
+ <input type="text" name="nome" id="name" required pattern="[aA-zZ\s]+$">
+</p>
+
+<p>
+ <label for="idade"> Idade </label>
+ <input type="number" name="idade" id="idade" required pattern="[0-9]+$">
+ </p>
+ <p>
+ <label for="email"> Seu E-mail </label>
+ <input type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+ </p>
+ <p>
+ <label for="senha"> Senha </label>
+ <input type="pasworrd" name="senha" id="senha" required>
+</p>
+<p> 
+ <label for="senha"> Confirme sua senha </label>
+ <input type="pasworrd" name="senha" id="senha" required>
+</p>
+<p>
+ <input id="notificações" name="notificações" type="checkbox" value="sim">
+ <label for="notificações">Desejo receber notificações</label>	
+</p>
+<p>
+ <input type="submit" name="emviar" value="salvar">
+</p>
+
+</form>
+</main>
+</body>
+</html>
